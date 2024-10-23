@@ -60,7 +60,7 @@ class FaceRestoreHelper(object):
         upscale_factor,
         face_size=512,
         crop_ratio=(1, 1),
-        det_model="YOLOv5n",
+        det_model="retinaface_mobile0.25",
         save_ext="png",
         template_3points=False,
         pad_blur=False,
