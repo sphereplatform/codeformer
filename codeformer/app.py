@@ -89,7 +89,7 @@ def inference_app(image, background_enhance, face_upsample, upscale, codeformer_
     has_aligned = False
     only_center_face = False
     draw_box = False
-    detection_model = "YOLOv5n"  # Changed detection model to YOLOv5n
+    detection_model = "retinaface_mobile0.25"  # Changed detection model to YOLOv5n
     print("Inp:", type(image), background_enhance, face_upsample, upscale, codeformer_fidelity)
     
     original_shape = image.shape  # Store original dimensions
